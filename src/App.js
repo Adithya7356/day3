@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Increment from './components/Increment';
+import StateEffect from './components/StateEffect';
+import StateTask from './components/StateTask';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Increment/> */}
+      <StateTask/>
     </div>
   );
 }
